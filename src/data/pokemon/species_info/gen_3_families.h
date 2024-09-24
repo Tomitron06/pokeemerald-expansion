@@ -1640,11 +1640,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .iconSprite = gMonIcon_Lotad,
         .iconPalIndex = 4,
         FOOTPRINT(Lotad)
-        OVERWORLD(
+        OVERWORLD_SET_ANIM(
             sPicTable_Lotad,
             SIZE_32x32,
             SHADOW_SIZE_M,
-            TRACKS_FOOT,
+            TRACKS_NONE,
+            sAnimTable_Standard,
             gOverworldPalette_Lotad,
             gShinyOverworldPalette_Lotad
         )
