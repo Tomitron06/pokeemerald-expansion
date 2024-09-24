@@ -965,11 +965,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .iconSprite = gMonIcon_Zigzagoon,
         .iconPalIndex = 2,
         FOOTPRINT(Zigzagoon)
-        OVERWORLD(
+        OVERWORLD_SET_ANIM(
             sPicTable_Zigzagoon,
             SIZE_32x32,
             SHADOW_SIZE_M,
-            TRACKS_FOOT,
+            TRACKS_NONE,
+            sAnimTable_Standard,
             gOverworldPalette_Zigzagoon,
             gShinyOverworldPalette_Zigzagoon
         )
